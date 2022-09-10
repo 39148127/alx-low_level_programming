@@ -1,18 +1,16 @@
 #include <stdio.h>
 /**
- * Describe: main - prints single digit binay
+ * Description: main - print lower case of the alphabet
  *
  * Return: 0 if successful
- *
- * dec_num is variable for the single decimal number
  *
  */
 int main(void)
 {
-	int dec_num = 0;
+	char letter;
 
-	for (; dec_num < 10 ; dec_num++)
-		putchar('0' + dec_num);
+	for (letter = 'z' ; letter >= 'a' ; letter--)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
