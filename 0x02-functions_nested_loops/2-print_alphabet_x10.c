@@ -7,8 +7,8 @@
 int main(void)
 {
 	int w;
-	w = 0;
 	char x;
+	w = 0;
 	while(w <= 9)
 	{
 		for(x = 'a'; x <= 'z'; x++)
