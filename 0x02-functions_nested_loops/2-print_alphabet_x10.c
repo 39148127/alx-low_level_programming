@@ -4,7 +4,7 @@
  *
  *
  */
-int main(void)
+int main()
 {
 	int alphabet();
 	for (int x = 'a'; x <= 'z'; x++)
@@ -12,5 +12,6 @@ int main(void)
 		x = alphabet(x);
                 _putchar(x);
 	}	
-                _putchar('\n':wq)
+                _putchar('\n')
+			return (0)
 }
