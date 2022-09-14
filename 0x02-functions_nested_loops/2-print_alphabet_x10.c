@@ -4,14 +4,13 @@
  *
  *
  */
-int main()
+int main(void)
 {
 	int alphabet();
 	for (int x = 'a'; x <= 'z'; x++)
 	{
 		x = alphabet(x);
                 _putchar(x);
-		_putchar(\n);
 	}	
-         	return (0);
+                _putchar('\n':wq)
 }
