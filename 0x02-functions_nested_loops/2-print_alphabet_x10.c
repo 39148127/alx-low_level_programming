@@ -6,11 +6,12 @@
  */
 int main()
 {
-	for (int x = 'a'; x <= 'z'; x++;)
+	int alphabet();
+	for (int x = 'a'; x <= 'z'; x++)
 	{
 		x = alphabet(x);
 		putchar(x);
-		putchar(\n);
+		putchar(/n);
 	}	
          	return (0);
 }
