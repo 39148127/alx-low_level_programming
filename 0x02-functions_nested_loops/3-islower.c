@@ -1,21 +1,16 @@
 #include "main.h"
-/**
- * print_alphabet_x10 - prints alphabet 10 times
- *
- * Return: always 0;
- *
- */
-void print_alphabet_x10(void)
-{
-	char i;
-	char c;
 
-	for (i = 0; i <= 9; i++)
+/**
+ * _islower - check for lower case letter
+ * @c : character to check the case
+ * Return:0 or 1
+ */
+
+int _islower(int c)
+{
+	if (c >= 'a' && c <= 'z')
 	{
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
+		return (1);
 	}
+	return (0);
 }
