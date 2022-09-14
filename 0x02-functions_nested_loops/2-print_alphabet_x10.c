@@ -11,7 +11,7 @@ int main()
 	{
 		x = alphabet(x);
                 _putchar(x);
-		_putchar(/n);
+		_putchar(\n);
 	}	
          	return (0);
 }
