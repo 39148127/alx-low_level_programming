@@ -1,17 +1,22 @@
 #include "main.h"
 /**
+ *main(void) - prints 10 characters
  *
- *
- *
+ *it returns 0
  */
-int main()
+int main(void)
 {
-	int alphabet();
-	for (int x = 'a'; x <= 'z'; x++)
+	int w;
+	w = 0;
+	char x;
+	while(w <= 9)
 	{
-		x = alphabet(x);
-                _putchar(x);
-	}	
-                _putchar('\n')
-			return (0)
+		for(x = 'a'; x <= 'z'; x++)
+		{
+			_putchar(x);
+		}
+		w++;
+	        _putchar('\n');
+	}
 }
+			
