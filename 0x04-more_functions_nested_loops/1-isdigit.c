@@ -6,7 +6,6 @@
  *@c: character to determine
  *
  * Return: gives boolean
- *
  */
 
 int _isdigit(int c)
