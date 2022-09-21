@@ -1,15 +1,18 @@
 #include "main.h"
 
+#include "2-strlen.c"
 /**
- * main - check the code
+ * print_rev - reverse a string
  *
- * Return: Always 0.
+ * @s: string to print
  */
-int main(void)
+void print_rev(char *s)
 {
-    char *str;
+	int i;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+	for (i = _strlen(s) - 1; i >= 0; i--)
+	{
+		_putchar(*(s + i));
+	}
+	_putchar('\n');
 }
