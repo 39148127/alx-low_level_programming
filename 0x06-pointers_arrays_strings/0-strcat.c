@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * *_strcat - concatenates two strings
+ * _strcat - concatenates two strings
  *
  * @dest: destination
  *
  *  @src: source
  *
- *  return: return dest
+ *  return: return char
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,17 +14,17 @@ char *_strcat(char *dest, char *src)
 	int i = 0;
 	int k = 0;
 
-	while(dest[i] != '\0')
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
-	while(dest[k] != '\0')
+	while (dest[k] != '\0')
 	{
 		dest[i] = src[k];
 		i++;
 		k++;
 	}
 	dest[i] = '\0';
-	return dest;
+	return (dest);
 }
 
