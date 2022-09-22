@@ -6,7 +6,7 @@
  *
  *  @src: source
  *
- *  return: return char
+ *  Return: char value
  */
 
 char *_strcat(char *dest, char *src)
@@ -27,4 +27,3 @@ char *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
