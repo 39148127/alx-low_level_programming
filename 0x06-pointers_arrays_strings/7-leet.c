@@ -1,18 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code for
+ * leet - leet
+ * @s: string
  *
- * Return: Always 0.
+ * Return: char value
+ *
+ * a tribute to me and her LOL
  */
-int main(void)
+char *leet(char *s)
 {
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
+	char alphaArr[] = "a4A4e3E3o0O0t7T7l1L1";
+	int lilian;
+	int fred;
 
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
+	for (lilian = 0; s[lilian] != '\0'; lilian++)
+	{
+		for (fred = 0; alphaArr[fred] != '\0'; fred++)
+		{
+			if (s[lilian] == alphaArr[fred])
+			{
+				s[lilian] = alphaArr[fred + 1];
+				break;
+			}
+		}
+	}
+	return (s);
 }
